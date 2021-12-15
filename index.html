@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/estilos/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
+</head>
+
+<body>
+    <ion-icon class="equis" name="close-outline"></ion-icon>
+    <ion-icon class="menu-burger" name="menu-outline"></ion-icon>
+    <header>
+        
+        <!-- nabvar desktop -->
+
+        <nav data-aos="fade-down">
+
+            <ul class="navbar">
+                <li><a href="#inicio">Inicio </a></li>
+                <li><a href="#sobreMi">Sobre mí </a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contactame">Contactame</a></li>
+            </ul>
+        </nav>
+        <!-- ebd nabvar desktop -->
+
+        <!-- nabvar mobile -->
+        <div>
+            <nav id="ocultar">
+                <ul class="navbar-mobile">
+                    <li><a href="#inicio" onclick="ocultar()">Inicio </a></li>
+                    <li><a href="#sobreMi" onclick="ocultar()">Sobre mí </a></li>
+                    <li><a href="#portafolio" onclick="ocultar()">Portafolio</a></li>
+                    <li><a href="#contactame" onclick="ocultar()">Contactame</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- ebd nabvar mobile -->
+    </header>
+    <!-- inicio   -->
+    <section>
+        <div class="contenedor-incio">
+
+            <div id="inicio" data-aos="fade-right">
+                <img src="src/img/logo_transparent.png" alt="logo" class="logo" srcset="">
+            </div>
+
+            <div data-aos="fade-left">
+                <p>Hola, soy Alexander Mejia</p>
+                <div id="typed-strings">
+                    <p>Desarrollador Web</p>
+
+                </div>
+                <span id="typed"></span>
+            </div>
+        </div>
+    </section>
+    <!-- end inicio   -->
+    <h1 class="titulos" id="sobreMi" data-aos="fade-right">Sobre mí</h1>
+    <section class="main-card">
+
+        <div class="card-conatner">
+
+            <div data-aos="fade-in">
+                <img src="src/img/Captura.PNG" class="foto" alt="me">
+            </div>
+
+            <div class="ampliar" data-aos="fade-in">
+                <p>
+                    Soy una persona bastante sociable, me agrada conocer gente y saber encajar en los nuevos lugares
+                    donde a donde voy, además me gusta ser responsable y puntual para así poder cumplir con los
+                    objetivos. Me
+                    siento muy cómodo trabajando en equipo y no me rindo fácilmente ante problemas de desarrollo de
+                    software,
+                    por último cuento con experiencia gracias a que me gradué mediante la formación dual lo que me
+                    facilita
+                    el ambientarme rápidamente en el mercado laboral.
+                </p>
+            </div>
+
+        </div>
+        <h1 class="center-text">Habilidades</h1>
+        <div class="habilidades">
+
+            <div data-aos="fade-down">
+                <p>js</p>
+                <div class="porcentaje"><span style="width: 60%;">60%</span></div>
+            </div>
+
+
+            <div data-aos="fade-down">
+                <p>PHP</p>
+                <div class="porcentaje"><span style=" width: 50%;"> 50%</span></div>
+            </div>
+
+
+            <div data-aos="fade-down">
+                <p>css</p>
+                <div class="porcentaje"><span style="width: 70%;">70%</span></div>
+            </div>
+
+            <div data-aos="fade-down">
+                <p>Node js</p>
+                <div class="porcentaje"><span style="width: 60%;">60%</span></div>
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <!-- portafolio -->
+    <h1 id="portafolio" class="titulos" data-aos="fade-right">Proyectos realizados</h1>
+    <section>
+        <div class="grid">
+            <div data-aos="fade-right">
+                <img src="src/img/web.jpg" alt="">
+                <p>Up Task Proyecto</p> <a href="%">Visita!</a>
+            </div>
+            <div data-aos="fade-left">
+                <img src="src/img/web.jpg" alt="">
+                <p>Up Task Proyecto</p> <a href="%">Visita!</a>
+            </div>
+            <div data-aos="fade-right">
+                <img src="src/img/web.jpg" alt="">
+                <p>Up Task Proyecto</p> <a href="%">Visita!</a>
+            </div>
+        </div>
+    </section>
+    <!-- final portafolio -->
+
+
+
+    <!-- portafolio -->
+ 
+
+    <!-- footer -->
+    <footer class="footer">
+        <div>
+            <h1 id="contactame" class="contactame" data-aos="fade-right">Contactamé</h1>
+        </div>
+        <div class="iconos">
+           
+            <a href="">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a href="">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+        </div>
+
+        <div>
+            <p>Todos los derechos reservados. Alexander Mejía 2021</p>
+        </div>
+
+
+    </footer>
+</body>
+
+<script src="src/js/main.js"></script>
+
+</html>
