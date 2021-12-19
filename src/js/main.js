@@ -34,9 +34,22 @@ var typed = new Typed('#typed', {
 AOS.init(); //iniciar animaciones
 
 
-console.log(equis)
 equis.addEventListener('click', e => {
     equis.style.display = 'none';
     div.style.display = 'none';
     menuBurger.style.display = 'block'
 })
+
+//abrir modal pryecto 1
+
+    let proyecto1 = document.querySelector('#proyecto1');
+    
+    function abrirPro1 () {
+        proyecto1.style.display='block'
+    }
+    function cerrarPro1 () {
+        proyecto1.style.display='none'
+    }
+   
+
+

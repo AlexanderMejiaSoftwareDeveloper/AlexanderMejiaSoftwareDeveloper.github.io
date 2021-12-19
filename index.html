@@ -12,6 +12,9 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="icon" href="src/img/logo_transparent.png">
+   
+
 
 
 </head>
@@ -20,7 +23,7 @@
     <ion-icon class="equis" name="close-outline"></ion-icon>
     <ion-icon class="menu-burger" name="menu-outline"></ion-icon>
     <header>
-        
+
         <!-- nabvar desktop -->
 
         <nav data-aos="fade-down">
@@ -126,16 +129,9 @@
         <div class="grid">
             <div data-aos="fade-right">
                 <img src="src/img/web.jpg" alt="">
-                <p>Up Task Proyecto</p> <a href="%">Visita!</a>
+                <p>Up Task Proyecto</p> <a href="#login-form" onclick="abrirPro1()">Conoce mas..</a>
             </div>
-            <div data-aos="fade-left">
-                <img src="src/img/web.jpg" alt="">
-                <p>Up Task Proyecto</p> <a href="%">Visita!</a>
-            </div>
-            <div data-aos="fade-right">
-                <img src="src/img/web.jpg" alt="">
-                <p>Up Task Proyecto</p> <a href="%">Visita!</a>
-            </div>
+        
         </div>
     </section>
     <!-- final portafolio -->
@@ -143,7 +139,7 @@
 
 
     <!-- portafolio -->
- 
+
 
     <!-- footer -->
     <footer class="footer">
@@ -151,7 +147,7 @@
             <h1 id="contactame" class="contactame" data-aos="fade-right">Contactamé</h1>
         </div>
         <div class="iconos">
-           
+
             <a href="https://github.com/AlexanderMejiaSoftwareDeveloper" target="_blank">
                 <ion-icon name="logo-github"></ion-icon>
             </a>
@@ -169,6 +165,28 @@
 
 
     </footer>
+
+    <!-- Proyecto uno modal -->
+    <div class="modal" id="proyecto1">
+        <ion-icon class="equis-modal" name="close-outline" onclick="cerrarPro1()"></ion-icon>
+        <h1>Up task</h1>
+        <div class="contenedor-modal">
+            <div >
+                <div class="grid-modal">
+                    <img src="src/img/me.jpg" alt="">
+                    <img src="src/img/me.jpg" alt="">
+                    <img src="src/img/me.jpg" alt="">
+                    
+                </div>
+            </div>
+            <div class="texto-modal">
+               <p>Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, quisquam! Fugit, iste libero? Iusto repudiandae numquam pariatur, ipsam commodi enim delectus quisquam soluta recusandae iure nam facilis voluptates! Itaque, tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. A necessitatibus beatae vel nisi magnam architecto error suscipit et maiores dolore voluptate ratione corrupti nesciunt iusto voluptates omnis, labore nihil! Earum! dolor, sit amet consectetur adipisicing elit. A consequatur nostrum officiis possimus cum totam perspiciatis ipsa asperiores ratione accusantium dolore at voluptatum hic dolorum, repellat pariatur laudantium qui in.</p>
+                <a href="" class="boton-ir-proyecto">Ir al proyecto!! </a>
+            </div>
+        </div>
+    </div>
+
+   
 </body>
 
 <script src="src/js/main.js"></script>
