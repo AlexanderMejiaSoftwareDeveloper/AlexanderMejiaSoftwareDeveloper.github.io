@@ -207,7 +207,10 @@ body{
 
 .grid div{
    
-    padding: 25px;
+    border: solid 5px var(--second-bg-color);
+    border-radius: 25px;
+    padding: 30px;
+    padding-bottom: 50px;
     text-align: center;
     font-size: 18px ;
 }
@@ -236,6 +239,7 @@ body{
     margin: 0 auto;
     width: 85%;
     height: 80%;
+    border-radius: 25px;
    
 
 
@@ -244,7 +248,6 @@ body{
 .grid div:hover{
     
     margin: 10px;
-    cursor: pointer;
 }
 
 
@@ -342,6 +345,7 @@ footer{
 .texto-modal{
     display: block;
     color: white;
+    font-weight: normal;
     margin-bottom: 25px;
     width: 90%;   
 }
