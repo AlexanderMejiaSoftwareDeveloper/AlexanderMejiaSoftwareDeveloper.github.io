@@ -348,6 +348,7 @@ footer{
     font-weight: normal;
     margin-bottom: 25px;
     width: 90%;   
+    text-align: left;
 }
 
 .boton-ir-proyecto{
